@@ -1,33 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-/*1. Faça um programa que possua um vetor denominado A que armazene 6 numeros inteiros.
-O programa deve executar os seguintes passos:
-
-(a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
-(b) Armazene em uma variavel inteira (simples) a soma entre os valores das posições ˜
-A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
-(c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100. ˜
-(d) Mostre na tela cada valor do vetor A, um em cada linha
-
-
-
-int main()
-{
-    int soma, v[6]={1,0,5,-2,-5,7},i;
-
-    printf("O valor de %d \n",v[0]+v[1]+v[5]);
-    v[4]=100;
-
-    for(i=0;i<=5;i++)
-
-    {
-        printf("%d \n",v[i]);
-    }
-    return 0;
-}*\
-
 /*2. Crie um programa que le 6 valores inteiros e, em seguida, mostre na tela os valores lidos.
 
 int main()
@@ -51,7 +24,7 @@ int main()
 componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos temˆ
 10 elementos cada. Imprimir todos os conjuntos*/
 
-/*int main()
+int main()
 {
     int i, c[10],v[10];
 
@@ -74,11 +47,4 @@ componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos te
     {
         printf("%d  ",v[i]);
     }
-}*/
-
-
-/*Faça um programa que leia um vetor de 8 posicoes e, em seguida, leia tambem dois va- ´
-lores X e Y quaisquer correspondentes a duas posicoes no vetor. Ao final seu programa ˜
-devera escrever a soma dos valores encontrados nas respectivas posicoes ˜X e Y.*/
-
-
+}
