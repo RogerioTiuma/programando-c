@@ -1,0 +1,24 @@
+int main(void) {
+
+struct funcionario func1;
+
+printf("Digite o primeiro nome funcionário: ");
+
+scanf("%9s", func1.nome.primeiro);
+
+printf("Digite o último nome funcionário: "); scanf("%9s",
+func1.nome.ultimo);
+
+do {
+
+printf("Digite o salário funcionário: "); scanf("%lf", &func1.salario);
+
+} while (func1.salario <= 0);
+
+printf("Nome: %s %s\n", func1.nome.primeiro, func1.nome.ultimo);
+
+printf("Salário: %.2lf\n", func1.salario);
+
+return 0;
+
+}
