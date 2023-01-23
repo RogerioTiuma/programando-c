@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+<<<<<<< HEAD
 /*Fac¸a um programa que leia um vetor de 10 posic¸ ˜oes e verifique se existem valores iguais
+=======
+/*FacÂ¸a um programa que leia um vetor de 10 posicÂ¸ Ëœoes e verifique se existem valores iguais
+>>>>>>> 6d33311238b1e2a464b1cdce35940607d0b0cc31
 e os escreva na tela.*/
 
 int main()
