@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1675720841 source:d:\armazenamento\central\rogério - planejamento\2022\tads - 2022\int. prog\programando-c\tads-ifpe\projeto_de_cadastros\jami\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
